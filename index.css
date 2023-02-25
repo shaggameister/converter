@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Golos Text", sans-serif;
   text-align: center;
   background: black;
   min-width: 250px;
@@ -27,7 +28,12 @@ body {
 }
 
 h1 {
+  font-size: 2.5rem;
   color: white;
+}
+
+.main-h2 {
+  color: #fff;
 }
 
 input {
@@ -60,8 +66,9 @@ input[type="number"] {
 button {
   color: #3d3d3d;
   margin: 25px;
-  padding: 12px 30px;
-  font-weight: bolder;
+  padding: 12px 35px;
+  font-family: inherit;
+  font-weight: bold;
   border-radius: 5px;
   border: none;
 }
@@ -70,18 +77,29 @@ button {
   margin: 30px;
   height: auto;
   background: white;
-  max-width: 560px;
+  max-width: 300px;
   min-width: 250px;
   padding: 0 10px 10px 10px;
   border: 1px solid #6944ff;
   border-radius: 10px;
-  /* margin: auto; */
 }
 
 h2 {
-  color: #3d3d3d;
+  line-height: 0.5;
+  color: #6944ff;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+h3 {
+  line-height: 0.5;
+  color: #6944ff;
+  font-size: 1.3rem;
 }
 
 p {
+  line-height: 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
   color: #3d3d3d;
 }

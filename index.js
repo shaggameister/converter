@@ -18,6 +18,7 @@ convertBtn.addEventListener("click", function () {
     inputEl.value
   } feet = ${totalMeter.toFixed(3)} meters`;
   lengthEl.innerHTML = lengthTotal;
+
   // converting volume
   let totalGallons = inputEl.value * 0.264;
   let totalLiters = inputEl.value / 0.264;
@@ -25,11 +26,12 @@ convertBtn.addEventListener("click", function () {
     3
   )} gallons | ${inputEl.value} gallons = ${totalLiters.toFixed(3)} liters`;
   volumeEl.innerHTML = volumeTotal;
+
   // converting volume
   let totalPounds = inputEl.value * 2.204;
   let totalKilograms = inputEl.value / 2.204;
-  let massTotal = `${inputEl.value} kilograms = ${totalPounds.toFixed(
+  let massTotal = `${inputEl.value} kilos = ${totalPounds.toFixed(
     3
-  )} pounds | ${inputEl.value} pounds = ${totalKilograms.toFixed(3)} kilograms`;
+  )} pounds | ${inputEl.value} pounds = ${totalKilograms.toFixed(3)} kilos`;
   massEl.innerHTML = massTotal;
 });
