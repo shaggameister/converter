@@ -38,6 +38,7 @@ input {
   height: 6rem;
   border: 2px solid #b295ff;
   background: inherit;
+
   border-radius: 5px;
   margin: 10px;
 }
@@ -73,6 +74,7 @@ button {
   max-width: 560px;
   min-width: 250px;
   padding: 0 10px 10px 10px;
+  border: 1px solid #6944ff;
   border-radius: 10px;
   /* margin: auto; */
 }
