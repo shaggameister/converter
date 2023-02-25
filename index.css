@@ -38,7 +38,6 @@ input {
   height: 6rem;
   border: 2px solid #b295ff;
   background: inherit;
-
   border-radius: 5px;
   margin: 10px;
 }
@@ -60,7 +59,7 @@ input[type="number"] {
 
 button {
   color: #3d3d3d;
-  margin: 20px;
+  margin: 25px;
   padding: 12px 30px;
   font-weight: bolder;
   border-radius: 5px;
@@ -80,7 +79,6 @@ button {
 }
 
 h2 {
-  padding-top: 30px;
   color: #3d3d3d;
 }
 
