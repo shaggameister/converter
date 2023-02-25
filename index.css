@@ -21,6 +21,8 @@ body {
 }
 
 .inner-div {
+  max-width: 500px;
+  min-width: 200px;
   background: #6944ff;
   height: auto;
   width: 100%;
