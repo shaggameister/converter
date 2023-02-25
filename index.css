@@ -21,8 +21,7 @@ body {
 }
 
 .inner-div {
-  max-width: 460px;
-  min-width: 300px;
+  width: 100%;
   background: #6944ff;
   height: auto;
   width: 100%;
@@ -79,8 +78,7 @@ button {
   margin: 30px;
   height: auto;
   background: white;
-  max-width: 380px;
-  min-width: 300px;
+  width: 80%;
   padding: 0 10px 10px 10px;
   border: 1px solid #6944ff;
   border-radius: 10px;
