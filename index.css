@@ -32,10 +32,10 @@ h1 {
 
 input {
   color: white;
-  font-size: 80px;
+  font-size: 5rem;
   text-align: center;
-  width: 130px;
-  height: 100px;
+  width: 8rem;
+  height: 6rem;
   border: 2px solid #b295ff;
   background: inherit;
   border-radius: 5px;
