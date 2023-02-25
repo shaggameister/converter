@@ -74,10 +74,10 @@ button {
 }
 
 .info {
-  margin: 30px;
+  margin: 20px;
   height: auto;
   background: white;
-  width: 100%;
+  width: 90%;
   padding: 0 10px 10px 10px;
   border: 1px solid #6944ff;
   border-radius: 10px;
