@@ -11,8 +11,8 @@ body {
   background: #f4f4f4;
   border: 3px solid white;
   border-radius: 20px;
-  max-width: 380px;
-  min-width: 200px;
+  max-width: 500px;
+  min-width: 380px;
   height: auto;
   margin-top: 40px;
   margin-left: auto;
@@ -22,7 +22,7 @@ body {
 
 .inner-div {
   max-width: 500px;
-  min-width: 200px;
+  min-width: 300px;
   background: #6944ff;
   height: auto;
   width: 100%;
@@ -42,7 +42,7 @@ input {
   color: white;
   font-size: 5rem;
   text-align: center;
-  width: 8rem;
+  max-width: 8rem;
   height: 6rem;
   border: 2px solid #b295ff;
   background: inherit;
@@ -79,8 +79,8 @@ button {
   margin: 30px;
   height: auto;
   background: white;
-  max-width: 300px;
-  min-width: 250px;
+  max-width: 500px;
+  min-width: 380px;
   padding: 0 10px 10px 10px;
   border: 1px solid #6944ff;
   border-radius: 10px;
