@@ -41,12 +41,14 @@ input {
   border-radius: 5px;
   margin: 10px;
 }
+
 /* used to remove the scroll arrows on the input field */
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
 input[type="number"] {
   -moz-appearance: textfield;
 }
@@ -59,7 +61,7 @@ button {
   color: #3d3d3d;
   margin: 20px;
   padding: 12px 30px;
-  font-weight: bold;
+  font-weight: bolder;
   border-radius: 5px;
   border: none;
 }
@@ -78,6 +80,7 @@ h2 {
   padding-top: 30px;
   color: #3d3d3d;
 }
+
 p {
   color: #3d3d3d;
 }
