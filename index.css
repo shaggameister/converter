@@ -2,12 +2,12 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  background: black;
+  background-image: radial-gradient(white, black) black;
 }
 
 .main {
   overflow: hidden;
-  background: radial-gradient(#f4f4f4 #fff);
+  background: #f4f4f4;
   border: 3px solid white;
   border-radius: 20px;
   max-width: 700px;
